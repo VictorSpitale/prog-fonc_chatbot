@@ -38,7 +38,7 @@ export class History {
 
 	/**
 	 *
-	 * @param message
+	 * @param {Message} message
 	 */
 	static addMessageToHistory(message) {
 		if(!History.instance) {
